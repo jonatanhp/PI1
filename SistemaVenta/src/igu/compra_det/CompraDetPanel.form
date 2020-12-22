@@ -71,22 +71,16 @@
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <Component id="nomCliente" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" pref="57" max="-2" attributes="0"/>
-                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="compraCombo" min="-2" pref="197" max="-2" attributes="0"/>
                               <Component id="productoCombo" min="-2" pref="197" max="-2" attributes="0"/>
                               <Component id="cantidadField" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="parcialText" min="-2" pref="77" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="totalText" min="-2" max="-2" attributes="0"/>
-                              </Group>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  <EmptySpace pref="71" max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace pref="149" max="32767" attributes="0"/>
@@ -119,12 +113,6 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="nomCliente" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
                       <Component id="cantidadField" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="parcialText" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="totalText" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -214,24 +202,6 @@
           </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="cantidadField">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="cantidad"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Parcial"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="parcialText">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel4"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="totalText">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel5"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="endButton">
           <Properties>

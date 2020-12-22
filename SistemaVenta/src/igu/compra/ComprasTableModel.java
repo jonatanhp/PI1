@@ -17,8 +17,8 @@ import javax.swing.table.AbstractTableModel;
 public class ComprasTableModel extends AbstractTableModel {
 
     private List<Compra> lis = new ArrayList();
-    private String[] columns = {"#", "Cliente","Fecha compra"};
-    private Class[] columnsType = {Integer.class, String.class,Date.class};
+    private String[] columns = {"#","id Compra", "Cliente","Fecha compra"};
+    private Class[] columnsType = {Integer.class,Integer.class, String.class,Date.class};
 
     public ComprasTableModel() {
         lis = CompraData.list("");
@@ -43,9 +43,11 @@ public class ComprasTableModel extends AbstractTableModel {
         switch (column) {
             case 0:
                 return row + 1;
-            case 1:
-                return d.getNomCliente();
+             case 1:
+                return d.getIdCompra();
             case 2:
+                return d.getNomCliente();
+            case 3:
                 return d.getFechaCompra();
            
            
